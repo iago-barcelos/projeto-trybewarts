@@ -1,10 +1,10 @@
-const botaoEntrar = document.getElementById("button-entrar");
+const botaoEntrar = document.getElementById("botao-enviar");
 
 function login() {
 
-  const inputEmail = document.getElementById('button-email')
+  const inputEmail = document.getElementById('botao-email')
 
-  const inputPassword = document.getElementById('button-password')
+  const inputPassword = document.getElementById('botao-password')
 
   botaoEntrar.addEventListener('click', () => {
     if (inputEmail === "tryber@teste.com" && inputPassword === "123456") {
