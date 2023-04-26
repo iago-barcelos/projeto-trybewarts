@@ -1,20 +1,20 @@
 const botaoEntrar = document.getElementById("botao-enviar");
 
-const inputEmail = document.getElementsByClassName('buttons')[0]
+function login() {
 
-const inputPassword = document.getElementsByClassName('buttons')[1]
+  const inputEmail = document.getElementById('botao-email')
 
-function login () {
-    const inputEmail = "tryber@teste.com"
-    const inputPassword = "123456"
-    botaoEntrar.addEventListener('click', () => {
-        if (inputEmail === "tryber@teste.com" && inputPassword ==="123456") {
-           alert("Olá, Tryber!")
-        }
-        else (inputEmail !== "tryber@teste.com" ||inputPassword !=="123456") 
-            alert("Email ou senha inválidos.")
-    })
+  const inputPassword = document.getElementById('botao-password')
+
+  botaoEntrar.addEventListener('click', () => {
+    if (inputEmail === "tryber@teste.com" && inputPassword === "123456") {
+      alert("Olá, Tryber!");
+    }
+    else {
+      alert("Email ou senha inválidos.")
+    }
+  })
 }
 
-login ();
+login();
 
