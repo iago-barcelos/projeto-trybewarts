@@ -1,26 +1,30 @@
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    width: 100%;
-    height: 70px;
-    justify-content: space-between;
-    
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+
 }
 
 .trybewarts-login {
-    display: flex;
-    border-radius: 20%;
+  border-radius: 20%;
+
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  color: white;
 
 }
 
 .buttons {
-    height: 40px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
 }
 
-#trybewarts-header-title {
-    align-self: center;
-    
+#button-entrar {
+  background-color:rgb(129, 3, 218);
 }
