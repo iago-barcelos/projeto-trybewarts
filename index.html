@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -17,8 +20,9 @@
         <form class="trybewarts-login" action="">
             <input class="buttons" id="botao-email" type="email" name="email" placeholder="Email">
             <input class="buttons" id="botao-password" type="password" name="password" placeholder="Senha">
-            <button class="buttons" id="botao-enviar">Entrar</button>
-        </form></header>
+            <button class="buttons" id="botao-entrar">Entrar</button>
+        </form>
+    </header>
 
     <main id="principal-form">
         <form id="evaluation-form">
@@ -81,8 +85,15 @@
         <label for="10">10</label></div>
 
         <label class="textarea">Deixe seu comentário:</label>
-        <textarea name="" id="" cols="10" rows="10" maxlength="500"></textarea> 
+        <textarea name="" id="" cols="10" rows="10" maxlength="500"></textarea>       
+        
+        <section class="checkBoxInfo">
+            <label id="label-infos" for="Você concorda com o uso das informações acima?">Você concorda com o uso das informações acima?</label> 
+            <input type="checkbox" id="agreement">
+        </section>
     </form>
+
+    
     <!-- testando -->
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
 </main>

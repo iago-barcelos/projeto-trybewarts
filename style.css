@@ -1,71 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    width: 100%;
-    height: 70px;
-    justify-content: space-between;
-    
+  display:flex;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
 }
 
 .trybewarts-login {
-    display: flex;
-    border-radius: 20%;
-
+  display: flex;
 }
 
 .buttons {
-    height: 40px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-block-end: 15px;
+  margin-block-start: 15px;
+  border-radius: 5px;
+}
+
+#botao-entrar {
+  background-color: blueviolet;
+  color: white;
+  width: 150px;
+  font-size: 18px;
 }
 
 #trybewarts-header-title {
-    align-self: center;
-    
+  align-self: center;
+  justify-self: center;
+  color: white;
+  font-size: 45px;
+}
+
+.trybewarts-header-logo {
+  margin-left: 15px;
+  margin-block-start: 5px;
+  height: 90%;
 }
 
 #principal-form {
-    display: flex;
-    flex-direction: row;    
+  display: flex;
+  flex-direction: row;
 }
 
-#evaluation-form {    
-    width: 675px;
-    display:flex;
-    flex-direction: column;
-    
-       
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 #trybewarts-forms-logo {
-    height: 500px; 
-       
+  height: 500px;
+
 }
 
 #full-name {
-    display: inline;
+  display: inline;
 }
 
 #email-house {
-    display: inline;
+  display: inline;
 }
 
 .radio-buttons {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }
 
 #label-rate {
-    padding: 15px;
+  padding: 15px;
 }
 
 .rate-radio {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .textarea {
-    padding: 30px;
+  padding: 30px;
+}
+
+.checkBoxInfo {
+  display: flex;
+}
+
+#label-infos {}
+
+#agreement {
+  margin-bottom: 500px;
 }

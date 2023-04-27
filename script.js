@@ -1,4 +1,4 @@
-const botaoEntrar = document.getElementById("botao-enviar");
+const botaoEntrar = document.getElementById("botao-entrar");
 
 function login() {
 
