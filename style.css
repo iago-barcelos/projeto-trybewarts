@@ -64,5 +64,8 @@
 .rate-radio {
     display: flex;
     flex-direction: row;
+}
 
+.textarea {
+    padding: 30px;
 }
