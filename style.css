@@ -26,7 +26,8 @@
 }
 
 #principal-form {
-    display: flex;    
+    display: flex;
+    flex-direction: row;    
 }
 
 #evaluation-form {    
@@ -39,7 +40,7 @@
 
 #trybewarts-forms-logo {
     height: 500px; 
-    
+       
 }
 
 #full-name {
@@ -54,4 +55,8 @@
     display: flex;
     flex-direction: column;
     padding: 5px;
+}
+
+.subject {
+    
 }
