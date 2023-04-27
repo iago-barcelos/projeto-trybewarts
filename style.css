@@ -91,11 +91,25 @@ body {
 }
 
 .checkBoxInfo {
-  display: flex;
+  height: 30px;
+  width: 600px;
+
 }
 
-#label-infos {}
+#label-infos {
+
+}
 
 #agreement {
-  margin-bottom: 500px;
+  margin-top: 20px;
+  
+}
+
+#submit-btn {
+  height: 40px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
 }
